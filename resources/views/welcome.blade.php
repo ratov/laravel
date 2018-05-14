@@ -66,7 +66,8 @@
     </head>
     <body>
         <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
+            <h1>Ратов Кирилл Александрович</h1>
+            {{--@if (Route::has('login'))
                 <div class="top-right links">
                     @auth
                         <a href="{{ url('/home') }}">Home</a>
@@ -89,7 +90,7 @@
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
-            </div>
+            </div>--}}
         </div>
     </body>
 </html>
